@@ -109,7 +109,7 @@ body {
     line-height: 120%;
 }
 
-.container_advantages-line_item:last-child {
+.container_advantages-line_item:nth-child(5) {
     color: #0070C9;
     border-bottom: 2px solid;
     border-color: #0070C9;
