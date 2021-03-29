@@ -543,16 +543,21 @@
                 <h4 class="container_advantages-list-item_hidden-title">
                   Оставьте&nbsp<span class="text_ex">заявку</span>
                 </h4>
-                <div class="registration_inform">
-                  <div class="registration_inform-item">
-                    <form class="registration_inform-item__" action="#">
-                      <input type="file" class="registration_inform-item_files" placeholder="Прикрепите смету, перетащив её в эту область, или выберите файл" name="file" required autocomplete="off">
-                      <p class="registration_inform-item_text-hidden">
-                        Имя
+                <div class="registration_inform_for-files">
+                  <div class="registration_inform-item__for-files">
+                    <form class="registration_inform-item__for-files__" action="#">
+                      <p class="registration_inform-item__files-text">
+                        Прикрепите смету,
+                        перетащив ее в эту область,
+                        или выберите файл
                       </p>
+                      <p class="registration_inform-item__files-text__hidden">
+                        Прикрепите смету
+                      </p>
+                      <input type="file" class="registration_inform-item_files" placeholder="Прикрепите смету, перетащив её в эту область, или выберите файл" name="file" required autocomplete="off">
                     </form>
                   </div>
-                  <div class="registration_inform-item">
+                  <div class="registration_inform-item_next">
                     <form class="registration_inform-item__" action="#">
                       <input type="text" class="registration_inform-item_text" placeholder="Имя*" name="name" required autocomplete="off">
                       <p class="registration_inform-item_text-hidden">
@@ -560,7 +565,7 @@
                       </p>
                     </form>
                   </div>
-                  <div class="registration_inform-item">
+                  <div class="registration_inform-item_next">
                     <form class="registration_inform-item__" action="#">
                       <input type="number" class="registration_inform-item_text" placeholder="+7(ХХХ) ХХХ-ХХ-ХХ" name="query" required autocomplete="off">
                     </form>
