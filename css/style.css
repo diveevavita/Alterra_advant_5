@@ -1012,12 +1012,29 @@ input[type=number]::-webkit-outer-spin-button {
 .registration_inform-item_next {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto 15px;
+    margin: 0 auto 15px 0;
     width: 50%;
 }
 
 .registration_inform-item__files-text__hidden {
     display: none;
+}
+
+.send-button_files {
+    height: 51px;
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #6A6868;
+    font-family: "Roboto Bold";
+    background-color: #CFD0D1;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: none;
+    padding: 13px;
+    cursor: pointer;
+    outline: none;
 }
 
 
@@ -1633,6 +1650,14 @@ input[type=number]::-webkit-outer-spin-button {
 	.registration-item_text-store {
 		font-size: 14px;
 	}
+
+    .registration_inform-item_next {
+        width: 390px;
+    }
+
+    .send-button_files {
+        width: 390px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -2027,5 +2052,9 @@ input[type=number]::-webkit-outer-spin-button {
 
     .registration_inform-item__for-files {
         height: 80px;
+    }
+
+    .send-button_files {
+        width: 100%;
     }
 }
