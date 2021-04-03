@@ -1300,8 +1300,8 @@ input[type=number]::-webkit-outer-spin-button {
 	.corporate_buyer-registration-item {
 		margin: 10px;
 		width: 310px;
-		height: 220px;
-    		padding: 0 30px;
+        height: 220px;
+        padding: 0 30px;
 	}
 
 	.registration-item_text {
@@ -1312,8 +1312,6 @@ input[type=number]::-webkit-outer-spin-button {
 	.registration-item_text-store {
 		font-size: 16px;
 	}
-	
-	
 }
 
 @media (min-width: 481px) and (max-width: 960px) {
